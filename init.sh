@@ -8,6 +8,4 @@ apt-get update -y
 curl -fsSL https://test.docker.com -o test-docker.sh
 sudo sh test-docker.sh
 
-git clone https://github.com/openchatai/OpenChat.git
-cd OpenChat
 make install
